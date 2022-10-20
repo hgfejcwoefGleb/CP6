@@ -1,4 +1,6 @@
 N = int(input("Введите количество элементов массива: "))
+if N <= 0:
+  print("Неверный формат данных, введите положительное число")
 D = [0]*N
 from random import randint
 for i in range(N): 
